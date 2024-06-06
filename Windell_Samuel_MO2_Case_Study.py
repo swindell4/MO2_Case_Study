@@ -12,5 +12,7 @@ while True:
 #Decimal point value representing a "Grade Point Average" of the student assigned to the firstName and lastName variables. 
       if GPA >= 3.5: 
          print("%s %s made the Dean's List!" % (firstName, lastName)) 
+         if GPA >= 3.0: 
+            print("%s %s made the Honor Roll" % (firstName, lastName)) 
       elif GPA >= 3.0: 
          print("%s %s made the Honor Roll" % (firstName, lastName)) 
